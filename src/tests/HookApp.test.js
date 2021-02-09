@@ -1,8 +1,8 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { HookApp } from "../../HookApp";
+import { HookApp } from "../HookApp";
 // para quitar el error de que no encuentra un adapter
-import "../../setupTests";
+import "../setupTests";
 
 describe("Pruebas en <HookApp />", () => {
   test("debe de mostrarse correctamente", () => {
